@@ -64,3 +64,18 @@ split terminal: `<leader>t`
 
 # Install
 
+```shell
+git clone https://github.com/HaithamBH/nvim-config ~/.config/nvim --depth 1 && nvim
+```
+
+# Uninstall
+```shell
+# Linux / Macos (unix)
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim
+
+# Windows
+rd -r ~\AppData\Local\nvim
+rd -r ~\AppData\Local\nvim-data
+```
+
